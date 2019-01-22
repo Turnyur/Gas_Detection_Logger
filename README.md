@@ -8,7 +8,7 @@ The system has two parts
 2. Hardware part
 
 
-##Software Part
+## Software Part
 The software part entails development of an Android application capable of receiving data remotely and then processing and showing the information gleaned in a structured and easily understable way.
 In addiction, The Android app is capable of storing the information an SQLite Database on the android platform together with the date and time of the arrival of each data obtained remotely from the sensor.
 
@@ -40,7 +40,7 @@ PS: Although you can download the APK file and install on your device, it can on
 
 
 
-##Hardware Part
+## Hardware Part
 The Hardware part consist of the Design using Proteus of the circuit diagram and the construction of the electronic components of the system such as;
 
 * The Gas Sensor (MQ2)
@@ -49,7 +49,7 @@ The Hardware part consist of the Design using Proteus of the circuit diagram and
 * The Microcontroller (Atmega 328p)
 * *Discrete components* such as resistors, transistors, capacitors diodes etc 
 
-The Proteus Simulation can be downloaded [here](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/Gas data logging.pdsprj) ![alt text](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/data log.png)
+The Proteus Simulation can be downloaded [here](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/Gas%20data%20logging.pdsprj) ![alt text](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/data%20log.png)
 The Microcontroller employed was programmed in Arduino Programming environment. The code snippet can be found [here](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/declare_code_full.PNG)
 The completed Hardware sub-system is shown [here](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/hard_shots.jpg)
 
