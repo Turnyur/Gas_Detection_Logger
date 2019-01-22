@@ -51,5 +51,5 @@ The Hardware part consist of the Design using Proteus of the circuit diagram and
 
 * The Proteus Simulation can be downloaded [here](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/Gas%20data%20logging.pdsprj) ![alt text](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/data%20log.png)
 * The Microcontroller employed was programmed in Arduino Programming environment. The code snippet can be found [here](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/declare_code_full.PNG)
-* The completed Hardware sub-system is shown [here](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/hard_shots.jpg)
+* The completed Hardware sub-system is shown below ![alt text](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/hard_shots.jpg)
 
