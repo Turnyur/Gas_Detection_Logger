@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gas Data Logger</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ProjTitle">Microcontroller Based Toxic Gas Detection and Data Logging System</string>
+    <string name="start">Connect</string>
+    <string name="stream">Stream  </string>
+    <string name="store">Store  </string>
+    <string name="title_activity_data_stream">DataStream</string>
+    <string name="title_activity_connecting_bt">Connecting to Bluetooth</string>
+    <string name="title_activity_stored_data">Data Center</string>
+    <string name="title_activity_database_test">Database Test</string>
+
+</resources>

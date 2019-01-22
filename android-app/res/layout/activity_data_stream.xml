@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DataStream" >
+
+    <TextView
+        android:id="@+id/projTitleStream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Real Time  Data Stream Dashboard"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#00A0FF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/beautiful_red"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tempViewer"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#77221221"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tempTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Temperature"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/green"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/tempValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0.00°C"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/purple"
+                android:textSize="60sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#67221221"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/gasTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Gas Intensity"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/green"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/gas_int_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0.00mV"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/purple"
+                android:textSize="60sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomtxtStream"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#20000050" >
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="Live streaming of data from the Microcontroller yet to commence..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fcfcfc"
+                android:typeface="sans" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

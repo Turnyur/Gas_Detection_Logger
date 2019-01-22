@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.turnyur.gasdatalogger"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.turnyur.gasdatalogger.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.turnyur.gasdatalogger.DataStream"
+            android:label="@string/title_activity_data_stream"
+            android:parentActivityName="com.turnyur.gasdatalogger.MainActivity" 
+            android:screenOrientation="portrait" 
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.turnyur.gasdatalogger.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.turnyur.gasdatalogger.ConnectingBT"
+            android:label="@string/title_activity_connecting_bt"
+            android:parentActivityName="com.turnyur.gasdatalogger.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.turnyur.gasdatalogger.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.turnyur.gasdatalogger.StoredData"
+            android:label="@string/title_activity_stored_data"
+            android:parentActivityName="com.turnyur.gasdatalogger.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.turnyur.gasdatalogger.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.turnyur.gasdatalogger.DatabaseTest"
+            android:label="@string/title_activity_database_test"
+            android:parentActivityName="com.turnyur.gasdatalogger.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.turnyur.gasdatalogger.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
