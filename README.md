@@ -53,3 +53,12 @@ The Hardware part consist of the Design using Proteus of the circuit diagram and
 * The Microcontroller employed was programmed in Arduino Programming environment. The code snippet can be found [here](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/declare_code_full.PNG)
 * The completed Hardware sub-system is shown below ![alt text](https://github.com/Turnyur/Gas_Detection_Logger/blob/master/shots/hard_shots.jpg)
 
+# Technologies
+* Java
+* XML
+* Embedded C
+* Android
+* etc
+
+# Author  
+## Umah Chukwudi Williams
